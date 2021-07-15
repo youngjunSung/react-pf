@@ -12,7 +12,7 @@ module.exports = {
         extensions: ['.js', '.jsx'] // entry에 들어가는 확장자 지정
     },
     entry: {
-        app: ['./client'], // client 안에 import 된 것까지 포함된다
+        app: ['./src/app'], // client 안에 import 된 것까지 포함된다
     }, // 입력
     module: {
         rules: [{
